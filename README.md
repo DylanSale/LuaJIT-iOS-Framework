@@ -20,10 +20,13 @@ INSTALLATION
 + Just drop the framework into your project. 
 + You will have to refer to \<LuaJIT/lua.h\> instead of "lua.h", etc
 + You can create a lua.h file which just does #include \<LuaJIT/lua.h\> if you have legacy code that uses lua.h
-+ (Maybe) You will also need to include /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/libgcc.a or you will get linker errors when compiling for Device.
++ (maybe) You will also need to include /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/llvm-gcc-4.2/lib/gcc/arm-apple-darwin10/4.2.1/libgcc.a or you will get linker errors when compiling for Device.
 
 
 ISSUES
 ------
-I have had a few crashes when using this, so it seems pretty experimental for now.
+
+I attached a Demo project at __"LuaJIT-iOS-ramework/Demo/LuaJITDemo.zip"__ , (maybe) you should try to run it in Xcode.
+
+If there is any problems when using this, read the [LuaJIT Install Page](http://luajit.org/install.html) , read the [lua C API](http://www.lua.org/manual/5.2/manual.html#4), or contact [me](https://github.com/ziggear) via github
 
