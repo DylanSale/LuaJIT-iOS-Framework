@@ -1,12 +1,12 @@
 /*
 ** Standard library header.
-** Copyright (C) 2005-2012 Mike Pall. See Copyright Notice in luajit.h
+** Copyright (C) 2005-2013 Mike Pall. See Copyright Notice in luajit.h
 */
 
 #ifndef _LUALIB_H
 #define _LUALIB_H
 
-#include <LuaJIT/lua.h>
+#include "lua.h"
 
 #define LUA_FILEHANDLE	"FILE*"
 
