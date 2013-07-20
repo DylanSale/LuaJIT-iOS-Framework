@@ -11,7 +11,7 @@ BUILD
 -----
 1. downlaod the [source](http://luajit.org/download.html) of LuaJIT
 2. extract source files and copy them to directory __"LuaJIT-iOS-ramework/luajit-2.0"__
-3. run the luajit.sh (or __luajit-iOS6.1.sh__ for iOS6.1) script and you will get the framework
+3. run the [__luajit.sh__](luajit.sh) (or [__luajit-iOS6.1.sh__](luajit-iOS6.1.sh) for iOS6.1) script and you will get the framework
 
 
 INSTALLATION
