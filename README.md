@@ -10,7 +10,7 @@ Requires lua 5.1 to be installed on your machine, __XCode 4.2/iOS 5.1__ or great
 BUILD
 -----
 1. downlaod the [source](http://luajit.org/download.html) of LuaJIT
-2. extract source files and copy them to directory __"LuaJIT-iOS-ramework/luajit-2.0"__
+2. extract source files and copy them to directory __"LuaJIT-iOS-Framework/luajit-2.0"__
 3. run the [__luajit.sh__](luajit.sh) (or [__luajit-iOS6.1.sh__](luajit-iOS6.1.sh) for iOS6.1) script and you will get the framework
 
 
@@ -26,7 +26,7 @@ INSTALLATION
 ISSUES
 ------
 
-I attached a Demo project at __"LuaJIT-iOS-ramework/Demo/LuaJITDemo.zip"__ , (maybe) you should try to run it in Xcode.
+I attached a Demo project at __"LuaJIT-iOS-Framework/Demo/LuaJITDemo.zip"__ , (maybe) you should try to run it in Xcode.
 
 If there is any problems when using this, read the [LuaJIT Install Page](http://luajit.org/install.html) , read the [lua C API](http://www.lua.org/manual/5.2/manual.html#4), or contact [me](https://github.com/ziggear) via github
 
